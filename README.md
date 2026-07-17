@@ -1,9 +1,10 @@
 # simple-fo4-downgrader-bash-script
-Bash script that uses Xdelta3 to downgrade Fallout 4 to version 1.10.163
+Bash script that uses Xdelta3 to downgrade Fallout 4 to version 1.10.163 without requiring you to mess around with downloading Steam depots. Download available on the [Nexus page](https://www.nexusmods.com/fallout4/mods/107049).
 
 ## Installation
 1. Extract the contents of the archive to your game's root folder
-2. Execute the following command:
+2. Open the terminal in this folder and execute the following command:
 ```bash
 ./fo4downgrader.sh
 ```
+3. Your game should now be downgraded and backups of the files that were patched will appear with `_backup` appended to their names.
